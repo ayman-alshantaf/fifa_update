@@ -500,7 +500,7 @@ width: 100%;
 }
 @media only screen and (max-width: 990px) {
     .congress-page .header-congress{
-        height: 80vh;
+        height: 60vh;
         background-color: #843597;
         position: relative;
     }
@@ -541,7 +541,6 @@ width: 100%;
         border-radius: 50%;
     }
 }
-
 .slick-arrow{
     position: absolute !important;
     top:95% !important;
