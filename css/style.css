@@ -573,7 +573,6 @@ width: 100%;
     padding: 90px 0;
 }
 .congress-page .card-congress .all-match{
-    margin-right: 20px;
 }
 .congress-page .card-congress .all-match .right-card{
     position: -webkit-sticky;
@@ -630,6 +629,7 @@ width: 100%;
     width: 100%;
     border-radius: 5px;
     overflow: hidden;
+    margin-bottom: 15px;
 }
 .congress-page .all-document .docm .image{
     width: 100%;
