@@ -452,7 +452,11 @@ width: 100%;
 
 /*end encounters page*/
 
+
 /*start congress page*/
+
+/*---start header congress---*/
+
 .congress-page .header-congress{
     height: 115vh;
     color: black;
@@ -498,7 +502,7 @@ width: 100%;
     color: white;
     margin-top: 20px;
 }
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 700px) {
     .congress-page .header-congress{
         height: 60vh;
         background-color: #843597;
@@ -541,7 +545,7 @@ width: 100%;
         border-radius: 50%;
     }
 }
-.slick-arrow{
+.congress-page .slick-arrow{
     position: absolute !important;
     top:95% !important;
     border: 1px solid white;
@@ -552,15 +556,100 @@ width: 100%;
     align-items: center;
     border-radius: 50%;
 }
-.slick-next{
+.congress-page .slick-next{
     position: absolute;
     right: 10% !important;
 
 }
-.slick-prev {
+.congress-page .slick-prev {
     right: 5% !important;
 
 }
+/*---end header congress---*/
+
+/*---start matches card congress---*/
+.congress-page .card-congress{
+    background-color: #EEEEE4;
+    padding: 90px 0;
+}
+.congress-page .card-congress .all-match{
+    margin-right: 20px;
+}
+.congress-page .card-congress .all-match .right-card{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.congress-page .card-congress .all-match .right-card h4{
+    line-height: 1.8em;
+}
+.congress-page .card-congress .all-match .right-card a{
+    text-decoration: none;
+}
+.congress-page .card-congress .all-match .card-match:first-child{
+    margin: 0;
+}
+
+.congress-page .card-congress .all-match .card-match .col-md{
+    margin:15px 5px ;
+    background-color: white;
+    padding: 0;
+
+}
+.congress-page .card-congress .all-match .card-match .image img{
+    width: 100%;
+}
+.congress-page .card-congress .all-match .card-match .description{
+    padding: 10px 20px 40px 20px;
+}
+.congress-page .card-congress .all-match .card-match .description span{
+    margin: 9px 0 3px 0;
+    display: inline-block;
+}
+.congress-page .card-congress .all-match .card-match .description h6{
+    font-weight: bolder;
+    font-size: 17px;
+}
+/*---end matches card congress---*/
+
+/*---start documents congress---*/
+.congress-page  .documents{
+    min-height: 70vh;
+    background-color: #843597;
+    padding:60px 0;
+}
+.congress-page  .documents h5,
+.congress-page  .documents h2{
+    color: white;
+}
+.congress-page .all-document{
+    margin-top: 50px;
+}
+.congress-page .all-document .docm{
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.congress-page .all-document .docm .image{
+    width: 100%;
+}
+.congress-page .all-document .docm .image img{
+    width: 100%;
+}
+.congress-page .all-document .docm  .description{
+    padding: 20px;
+}
+.congress-page .all-document .docm  .description h4{
+    margin-top: 20px;
+}
+.congress-page .all-document .docm  .description a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+}
+/*---end documents congress---*/
+
 /*end congress page*/
 
 
