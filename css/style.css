@@ -541,6 +541,48 @@ width: 100%;
         border-radius: 50%;
     }
 }
+@media only screen and (max-width: 500px) {
+    .congress-page .header-congress{
+        height: 60vh;
+        background-color: #843597;
+        position: relative;
+    }
+    .congress-page .header-congress  .slider-congress {
+        padding:60px 80px;
+    }
+    .congress-page .header-congress  .slider-congress  .slider{
+        position: relative;
+    }
+    .congress-page .header-congress  .slider-congress  .slider  img{
+        height: 30vh;
+    }
+    .congress-page .header-congress  .slider-congress  .slider h4{
+        color: white;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .congress-page .header-congress  .slider-congress  .slider h2{
+        color: white;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .congress-page .header-congress  .slider-congress  .slider .text-img{
+        position: absolute;
+        z-index: 20;
+        bottom: 8%;
+        right: 8%;
+    }
+    .congress-page .header-congress  .slider-congress  .slider .text-img .icon-video {
+        color: white;
+        width: 50px;
+        height: 50px;
+        background-color: #0a58ca;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+}
 .slick-arrow{
     position: absolute !important;
     top:95% !important;
