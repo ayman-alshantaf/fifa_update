@@ -512,7 +512,7 @@ width: 100%;
         position: relative;
     }
     .congress-page .header-congress  .slider-congress  .slider  img{
-        height: 34vh;
+        height: 40vh;
     }
     .congress-page .header-congress  .slider-congress  .slider h4{
         color: white;
@@ -541,6 +541,7 @@ width: 100%;
         border-radius: 50%;
     }
 }
+
 .slick-arrow{
     position: absolute !important;
     top:95% !important;
