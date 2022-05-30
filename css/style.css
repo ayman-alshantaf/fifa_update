@@ -452,4 +452,115 @@ width: 100%;
 
 /*end encounters page*/
 
+/*start congress page*/
+.congress-page .header-congress{
+    height: 115vh;
+    color: black;
+    background-color: #843597;
+    position: relative;
+}
+.congress-page .header-congress  .slider-congress {
+    padding:80px 80px;
+}
+.congress-page .header-congress  .slider-congress  .slider{
+    margin-left: 50px;
+    position: relative;
+
+}
+.congress-page .header-congress  .slider-congress  .slider  img{
+    height: 65vh;
+}
+.congress-page .header-congress  .slider-congress  .slider h4{
+    color: white;
+    margin-bottom: 20px;
+}
+.congress-page .header-congress  .slider-congress  .slider h2{
+    color: white;
+    margin-bottom: 20px;
+}
+.congress-page .header-congress  .slider-congress  .slider .text-img{
+    position: absolute;
+    z-index: 20;
+    bottom: 8%;
+    right: 8%;
+}
+.congress-page .header-congress  .slider-congress  .slider .text-img .icon-video {
+    color: white;
+    width: 70px;
+    height: 70px;
+    background-color: #0a58ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.congress-page .header-congress  .slider-congress  .slider .text {
+    color: white;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 990px) {
+    .congress-page .header-congress{
+        height: 80vh;
+        background-color: #843597;
+        position: relative;
+    }
+    .congress-page .header-congress  .slider-congress {
+        padding:60px 80px;
+    }
+    .congress-page .header-congress  .slider-congress  .slider{
+        margin-left: 50px;
+        position: relative;
+    }
+    .congress-page .header-congress  .slider-congress  .slider  img{
+        height: 40vh;
+    }
+    .congress-page .header-congress  .slider-congress  .slider h4{
+        color: white;
+        margin-bottom: 20px;
+        font-size: 17px;
+    }
+    .congress-page .header-congress  .slider-congress  .slider h2{
+        color: white;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .congress-page .header-congress  .slider-congress  .slider .text-img{
+        position: absolute;
+        z-index: 20;
+        bottom: 8%;
+        right: 8%;
+    }
+    .congress-page .header-congress  .slider-congress  .slider .text-img .icon-video {
+        color: white;
+        width: 50px;
+        height: 50px;
+        background-color: #0a58ca;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+}
+.slick-arrow{
+    position: absolute !important;
+    top:95% !important;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.slick-next{
+    position: absolute;
+    right: 10% !important;
+
+}
+.slick-prev {
+    right: 5% !important;
+
+}
+/*end congress page*/
+
 
