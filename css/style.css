@@ -388,20 +388,20 @@ width: 100%;
 /*start encounters page*/
 
 /*---start section language---*/
-.encounters-page .language{
+.encounters-page .language-article{
     padding-top: 30px ;
 }
-.encounters-page .language .container{
+.encounters-page .language-article .container{
     position: relative;
     width: 80%;
 }
-.encounters-page .language i{
+.encounters-page .language-article  i{
     position: absolute;
     left:3%;
     top: 32%;
     font-size: 20px;
 }
-.encounters-page .language select{
+.encounters-page .language-article select{
     direction: ltr;
     padding-left: 60px;
 }
