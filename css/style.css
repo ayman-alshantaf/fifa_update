@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Cairo', sans-serif;
+}
+
+.container-fluid {
+    width: 95% !important;
+}
+.fifa-span{
+    font-weight: bolder;
+    font-size: 19px;
+}
+/*Start Home page*/
+.home-page {
+    background-color: #FFFFFF;
+}
+
+/* ---start section navbar---*/
+ .navbar {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container-fluid {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo {
+    width: 80px;
+    margin-right: 8%;
+}
+
+.navbar .logo img {
+    width: 100%;
+    padding-top: 6px;
+}
+
+ .navbar .login a {
+    color: #707070;
+    text-decoration: none;
+}
+
+.navbar .login a:first-child {
+    margin-left: 10px;
+}
+
+ .navbar .login a:last-child {
+    border-right: 2px solid #707070;
+    padding-right: 12px;
+}
+
+/* ---end section navbar---*/
+
+/* ---start section competitions---*/
+ .competitions {
+    padding: 15px;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+ .competitions .text {
+    width: 100%;
+}
+
+ .competitions .text a {
+    display: block;
+    text-align: center;
+    color: #707070;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* ---end section competitions---*/
+/* ---start section tickets-bar---*/
+.home-page .tickets-bar {
+    padding: 8px 0;
+    background-color: #1277D9;
+}
+
+.home-page .tickets-bar .main-content {
+    color: white;
+    padding: 10px 0;
+}
+
+.home-page .tickets-bar .main-content .ticket {
+    background-color: #0263BC;
+    padding: 10px 20px;
+    padding-left: 50px;
+    border-radius: 50px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.home-page .tickets-bar .main-content .ticket span {
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+.home-page .tickets-bar .main-content .text {
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.home-page .tickets-bar .main-content .text span {
+    margin: 0 8px;
+}
+
+/* ---end section tickets-bar---*/
+
+/* ---start section header---*/
+ .header {
+    height: 75vh;
+    width: 100%;
+    background-image: url("../image/crop-legs-kicking-ball-smoke.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+ .header .text {
+    position: absolute;
+    bottom: 15%;
+    color: white;
+
+}
+
+ .header .text h4 {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.header .text h4 span {
+    position: absolute;
+    top: -20px;
+    left: 22%;
+    font-size: 16px;
+}
+
+.header .text a {
+    background-color: #0263BC;
+    color: white;
+    text-decoration: none;
+    padding: 8px 40px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+/* ---end section header---*/
+
+/* ---start section matches card---*/
+.home-page .matches-card{
+    position: relative;
+    padding-top: 50px;
+}
+
+.home-page .matches-card .all-match{
+    margin: 90px 0;
+    margin-right: 20px;
+}
+.home-page .matches-card .right-card{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.home-page .matches-card .right-card h4{
+    line-height: 1.8em;
+}
+.home-page .matches-card .right-card a{
+    text-decoration: none;
+}
+.home-page .matches-card .card-match:first-child{
+    margin: 0;
+}
+.home-page .matches-card .card-match{
+    margin-top: 80px ;
+}
+.home-page .matches-card .card-match .image img{
+width: 100%;
+    border-radius: 10px;
+}
+.home-page .matches-card .card-match .description span{
+    margin: 9px 0 3px 0;
+    display: inline-block;
+}
+.home-page .matches-card .card-match .description h6{
+    font-weight: bolder;
+    font-size: 17px;
+}
+.home-page .matches-card .more-matches{
+    margin-top: 60px;
+}
+.home-page .matches-card .more-matches .details-match{
+    display: flex;
+}
+.home-page .matches-card .more-matches .details-match img{
+    height: 110px;
+}
+.home-page .matches-card .more-matches .details-match .text{
+    margin-right: 15px;
+}
+.home-page .matches-card .more-matches .details-match .text p{
+    font-size: 15px;
+}
+/* ---end section matches card---*/
+/* ---start section congress---*/
+.home-page .congress{
+    background-image: url("../image/Rectangle 38.png");
+    height: 450px;
+    position: relative;
+}
+.home-page .congress .image-overly-1{
+    position: absolute;
+    right: 0;
+    top: 15%;
+    width: 60%;
+}
+.home-page .congress .image-overly-1 img{
+    width: 100%;
+}
+.home-page .congress .image-overly-2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.home-page .congress .image-overly-2 img{
+    width: 100%;
+}
+.home-page .congress .image-overly-3{
+    position: absolute;
+    right: 15%;
+    top: 10%;
+    width: 4%;
+}
+.home-page .congress .image-overly-3 img{
+    width: 100%;
+}
+.home-page .congress .text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.home-page .congress .text a{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+/* ---end section congress---*/
+
+/* ---start section partners---*/
+ .partners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+.partners h4{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.partners .container{
+    width: 60%;
+}
+.partners .partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.partners img{
+    display: inline-block;
+    width: 120px;
+}
+/* ---end section partners---*/
+
+/* ---start section social-media---*/
+.social-media{
+    padding: 50px 0;
+}
+.social-media .logo {
+    position: relative;
+}
+.social-media .logo .R{
+    position: absolute;
+    border: 2px solid #093697;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    right: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media .logo .R img{
+    width: 12px;
+    height: 12px;
+}
+.social-media  .links-navbar{
+    display: flex;
+    margin-top: 30px;
+}
+.social-media  .links-navbar .link:first-child{
+    margin-left: 40px;
+}
+.social-media .social{
+    display: flex;
+    margin-top: 50px;
+}
+.social-media .social .link-social {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #091B3F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.social-media .social .link-social i{
+    color: white;
+}
+
+
+/* ---end section social-media---*/
+
+/* ---start section footer---*/
+.footer{
+    padding: 30px;
+}
+.footer .content-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .content-footer .link a{
+    text-decoration: none;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #000F2C;
+}
+.footer .language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.footer .language i{
+    position: absolute;
+    left: 10%;
+    top:30%;
+    font-size: 18px;
+}
+.footer .language select{
+    width: 120px;
+}
+/* ---end section footer---*/
+
+/*End Home page*/
+
+/*start encounters page*/
+
+/*---start section language---*/
+.encounters-page .language{
+    padding-top: 30px ;
+}
+.encounters-page .language .container{
+    position: relative;
+    width: 80%;
+}
+.encounters-page .language i{
+    position: absolute;
+    left:3%;
+    top: 32%;
+    font-size: 20px;
+}
+.encounters-page .language select{
+    direction: ltr;
+    padding-left: 60px;
+}
+/*---end section language---*/
+
+/*---start section article---*/
+.all-article {
+    line-height: 2em;
+}
+.all-article .container{
+    width: 80%;
+}
+.all-article .article{
+    margin-top: 50px;
+}
+.all-article .article small{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.all-article .article .points-article{
+    line-height: 2.8em;
+    padding-right: 30px;
+}
+.all-article .article .points-article li{
+    padding-right: 30px;
+}
+.all-article .article .points-article li::marker{
+    color: #0088E7 !important;
+    font-size: 20px;
+}
+
+.all-article .article .description {
+    padding-right: 30px;
+}
+.all-article .article .description .image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin:60px 0 10px 0;
+}
+.all-article .article .description img{
+    width: 85%;
+}
+.points-article {
+}
+/*---end section article---*/
+
+
+/*end encounters page*/
+
+
