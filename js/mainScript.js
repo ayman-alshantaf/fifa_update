@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('.slider-congress').slick({
         rtl: true,
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 300,
         slidesToShow: 1,
