@@ -541,7 +541,7 @@ width: 100%;
         border-radius: 50%;
     }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 560px) {
     .congress-page .header-congress{
         height: 60vh;
         background-color: #843597;
@@ -551,7 +551,7 @@ width: 100%;
         width: 95% !important;
     }
     .congress-page .header-congress  .slider-congress {
-        padding:60px 80px;
+        padding:60px 0px;
     }
     .congress-page .header-congress  .slider-congress  .slider{
         position: relative;

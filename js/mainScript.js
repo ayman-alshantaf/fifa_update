@@ -12,7 +12,6 @@ $(document).ready(function() {
                 settings: {
                     arrows: false,
                     slidesToShow: 1,
-                    variableWidth: false,
 
                 }
             },
@@ -21,7 +20,6 @@ $(document).ready(function() {
                 settings: {
                     arrows: false,
                     slidesToShow: 1,
-                    variableWidth: false,
                 }
             }
         ]
