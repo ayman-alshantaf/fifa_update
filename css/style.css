@@ -726,7 +726,7 @@ width: 100%;
 }
 @media only screen and (max-width: 800px) {
     .clubs-page .tickets{
-        height: 40vh;
+        height: 30vh;
     }
 
     .clubs-page .tickets .text .content-text{
@@ -782,7 +782,7 @@ width: 100%;
 }
 @media only screen and (max-width: 800px) {
     .clubs-page .hospitality{
-        height: 40vh;
+        height: 30vh;
     }
 
     .clubs-page .hospitality .text .content-text{
