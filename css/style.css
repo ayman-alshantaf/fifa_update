@@ -867,10 +867,10 @@ width: 100%;
         text-align: center;
     }
     .clubs-page .events .text .content-text small{
-        display: none;
+        display: none !important;
     }
     .clubs-page .events .text h4{
-        font-size: 16px;
+        font-size: 15px;
     }
 
 }
