@@ -652,4 +652,153 @@ width: 100%;
 
 /*end congress page*/
 
+/*start Login page*/
+.page-login{
+    padding: 35px 0;
+}
+.page-login .main-content{
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 20px;
+    box-shadow: 0px 3px 12px -1px rgba(0,0,0,0.1);
+}
+.page-login .image{
+    width: 100%;
+    height: 550px;
+}
+.page-login .image img{
+    height: 100%;
+    width: 100%;
+}
+.page-login .form-login a{
+    display: block;
+    text-decoration: none;
+    margin: 20px 0;
+}
+.page-login .form-login button{
+    background-color: #326295;
+    border-radius: 0;
+}
+.page-login .form-login  .logo-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.page-login .form-login   .text{
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 800px) {
+    .page-login .section-image{
+      display: none;
+    }
+}
+/*end Login page*/
+
+
+/*start clubs page*/
+/*---start section tickets ---*/
+.clubs-page .tickets{
+    height: 90vh;
+    background-image: url("../image/Repeat Grid 8.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.clubs-page .tickets .text{
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+.clubs-page .tickets .text .content-text{
+    right: 47%;
+    top: 60%;
+    transform: translate(-47% , -40%);
+    position: absolute;
+}
+.clubs-page .tickets .text button{
+    padding: 10px 10px 10px 20px;
+    background-color: #1277D9;
+    color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+    border: none;
+}
+@media only screen and (max-width: 800px) {
+    .clubs-page .tickets{
+        height: 40vh;
+    }
+
+    .clubs-page .tickets .text .content-text{
+        right: 35%;
+    }
+    .clubs-page .tickets .text h4{
+        font-size: 16px;
+    }
+    .clubs-page .tickets .text h6{
+        font-size: 14px;
+    }
+
+}
+
+/*---end section tickets---*/
+
+/*---start section hospitality---*/
+.clubs-page .hospitality{
+    height: 90vh;
+    background-image: url("../image/Repeat Grid 5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+}
+.clubs-page .hospitality:before{
+ content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.2);
+}
+.clubs-page .hospitality .text{
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+.clubs-page .hospitality .text .content-text{
+    right: 47%;
+    top: 60%;
+    transform: translate(-47% , -40%);
+    position: absolute;
+}
+.clubs-page .hospitality .text button{
+    padding: 10px 10px 10px 20px;
+    background-color: #1277D9;
+    color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+    border: none;
+}
+@media only screen and (max-width: 800px) {
+    .clubs-page .hospitality{
+        height: 40vh;
+    }
+
+    .clubs-page .hospitality .text .content-text{
+        right: 35%;
+    }
+    .clubs-page .hospitality .text h4{
+        font-size: 16px;
+    }
+    .clubs-page .hospitality .text h6{
+        font-size: 14px;
+    }
+
+}
+
+/*---end section hospitality---*/
+
+/*end clubs page*/
+
 
