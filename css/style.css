@@ -865,6 +865,8 @@ width: 100%;
     .clubs-page .events .text .content-text{
           padding: 0;
         text-align: center;
+        margin-top: 60px;
+
     }
     .clubs-page .events .text .content-text small{
         display: none !important;
