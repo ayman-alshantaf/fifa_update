@@ -726,7 +726,7 @@ width: 100%;
 }
 @media only screen and (max-width: 800px) {
     .clubs-page .tickets{
-        height: 30vh;
+        height: 40vh;
     }
     .clubs-page .tickets .text{
         display: flex;
@@ -789,7 +789,7 @@ width: 100%;
 }
 @media only screen and (max-width: 800px) {
     .clubs-page .hospitality{
-        height: 30vh;
+        height: 40vh;
     }
     .clubs-page .hospitality .text{
         display: flex;
@@ -806,6 +806,69 @@ width: 100%;
         font-size: 16px;
     }
     .clubs-page .hospitality .text h6{
+        font-size: 14px;
+    }
+}
+
+/*---end section hospitality---*/
+
+
+/*---start section events---*/
+.clubs-page .events{
+    height: 90vh;
+    background-image: url("../image/Repeat Grid 6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+}
+.clubs-page .events:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.2);
+}
+.clubs-page .events .text{
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+.clubs-page .events .text .content-text{
+    right: 40%;
+    top: 60%;
+    transform: translate(-40% , -40%);
+    position: absolute;
+}
+.clubs-page .events .text button{
+    padding: 10px 10px 10px 20px;
+    background-color: #1277D9;
+    color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+    border: none;
+}
+@media only screen and (max-width: 800px) {
+    .clubs-page .events{
+        height: 40vh;
+    }
+    .clubs-page .events .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 80px;
+    }
+    .clubs-page .events .text .content-text{
+        text-align: center;
+        transform: translateY(0);
+        position: unset;
+    }
+    .clubs-page .events .text h4{
+        font-size: 16px;
+    }
+    .clubs-page .events .text h6{
         font-size: 14px;
     }
 }
