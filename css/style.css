@@ -946,3 +946,157 @@ width: 100%;
 /*end clubs page*/
 
 
+/*start competitions page*/
+.competitions-page .header{
+    background-image: url("../image/163-183726-copa-libertadores-conmebol-club-world-cup_700x400.png");
+    background-size: contain;
+    background-position:center;
+    position: relative;
+}
+.competitions-page .header:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+}
+.competitions-page .matches .title{
+    display: flex;
+}
+.competitions-page .matches{
+    padding: 80px 0;
+}
+.competitions-page .matches .title div{
+   width: 70%;
+}
+.competitions-page .matches .title div h5{
+    margin-bottom: 20px;
+
+}
+.competitions-page .matches .title div p{
+    line-height: 2.2em;
+}
+
+.competitions-page .matches .match{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.competitions-page .matches .match .card-events{
+    box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.2);
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.competitions-page .matches .match .card-events .image{
+    width: 12%;
+}
+.competitions-page .matches .match .card-events .image img{
+width: 100%;
+}
+.competitions-2-page .header{
+    background-image: url("../image/25220861.png");
+
+}
+.competitions-2-page .matches{
+    padding-bottom: 20px;
+}
+/*end competitions page*/
+
+
+
+/* ---start section matches card---*/
+.tournaments-page .matches-card{
+    position: relative;
+    padding-top: 50px;
+}
+
+.tournaments-page .matches-card .all-match{
+    margin: 90px 0;
+    margin-right: 20px;
+}
+.tournaments-page .matches-card .right-card{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.tournaments-page .matches-card .right-card h4{
+    line-height: 1.8em;
+}
+.tournaments-page .matches-card .right-card a{
+    text-decoration: none;
+}
+.tournaments-page .matches-card .card-match:first-child{
+    margin: 0;
+}
+.tournaments-page .matches-card .card-match{
+    margin-top: 80px ;
+}
+.tournaments-page .matches-card .card-match .image img{
+    width: 100%;
+    border-radius: 10px;
+}
+.tournaments-page .matches-card .card-match .description span{
+    margin: 9px 0 3px 0;
+    display: inline-block;
+}
+.tournaments-page .matches-card .card-match .description h6{
+    font-weight: bolder;
+    font-size: 17px;
+}
+.tournaments-page .matches-card .more-matches{
+    margin-top: 60px;
+}
+.tournaments-page .matches-card .more-matches .details-match{
+    display: flex;
+}
+.tournaments-page .matches-card .more-matches .details-match img{
+    height: 110px;
+}
+.tournaments-page .matches-card .more-matches .details-match .text{
+    margin-right: 15px;
+}
+.tournaments-page .matches-card .more-matches .details-match .text p{
+    font-size: 15px;
+}
+/* ---end section matches card---*/
+.tournaments-page .header{
+    background-image: url("../image/Image 4.png");
+    position: relative;
+    height: 90vh;
+}
+.tournaments-page .header .text{
+    bottom: 15%;
+}
+.tournaments-page .header:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left:0 ;
+}
+.tournaments-page .card-tournaments{
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+
+.card-tournaments .card{
+    box-shadow: 0px 1px 8px 2px rgba(0,0,0,0.2);
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 30px 0;
+    text-align: center;
+    line-height: 3em;
+
+}
+.card-tournaments .card img {
+    width: 50%;
+    margin: 0 auto;
+}
+/*end page tournaments*/
