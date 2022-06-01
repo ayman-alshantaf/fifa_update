@@ -1099,4 +1099,12 @@ width: 100%;
     width: 50%;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 900px) {
+    .card-tournaments .card{
+        width: 80%;
+
+
+    }
+}
 /*end page tournaments*/
