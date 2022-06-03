@@ -1348,10 +1348,10 @@ body {
 }
 @media only screen and (max-width: 800px) {
     .tickets-page .header {
-        height: 40vh !important;
+        height: 35vh !important;
     }
     .tickets-page .text-paragraph .container {
-        width: 90%;
+        width: 100%;
         line-height: 2em;
     }
 }
