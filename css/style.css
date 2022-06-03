@@ -15,17 +15,19 @@ body {
 .container-fluid {
     width: 95% !important;
 }
-.fifa-span{
+
+.fifa-span {
     font-weight: bolder;
     font-size: 19px;
 }
+
 /*Start Home page*/
 .home-page {
     background-color: #FFFFFF;
 }
 
 /* ---start section navbar---*/
- .navbar {
+.navbar {
     min-height: 70px;
     display: flex;
     align-items: center;
@@ -48,7 +50,7 @@ body {
     padding-top: 6px;
 }
 
- .navbar .login a {
+.navbar .login a {
     color: #707070;
     text-decoration: none;
 }
@@ -57,7 +59,7 @@ body {
     margin-left: 10px;
 }
 
- .navbar .login a:last-child {
+.navbar .login a:last-child {
     border-right: 2px solid #707070;
     padding-right: 12px;
 }
@@ -65,18 +67,18 @@ body {
 /* ---end section navbar---*/
 
 /* ---start section competitions---*/
- .competitions {
+.competitions {
     padding: 15px;
     min-height: 70px;
     display: flex;
     align-items: center;
 }
 
- .competitions .text {
+.competitions .text {
     width: 100%;
 }
 
- .competitions .text a {
+.competitions .text a {
     display: block;
     text-align: center;
     color: #707070;
@@ -127,7 +129,7 @@ body {
 /* ---end section tickets-bar---*/
 
 /* ---start section header---*/
- .header {
+.header {
     height: 75vh;
     width: 100%;
     background-image: url("../image/crop-legs-kicking-ball-smoke.png");
@@ -136,14 +138,14 @@ body {
     position: relative;
 }
 
- .header .text {
+.header .text {
     position: absolute;
     bottom: 15%;
     color: white;
 
 }
 
- .header .text h4 {
+.header .text h4 {
     margin-bottom: 20px;
     position: relative;
 }
@@ -168,102 +170,124 @@ body {
 /* ---end section header---*/
 
 /* ---start section matches card---*/
-.home-page .matches-card{
+.home-page .matches-card {
     position: relative;
     padding-top: 50px;
 }
 
-.home-page .matches-card .all-match{
+.home-page .matches-card .all-match {
     margin: 90px 0;
     margin-right: 20px;
 }
-.home-page .matches-card .right-card{
+
+.home-page .matches-card .right-card {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
-.home-page .matches-card .right-card h4{
+
+.home-page .matches-card .right-card h4 {
     line-height: 1.8em;
 }
-.home-page .matches-card .right-card a{
+
+.home-page .matches-card .right-card a {
     text-decoration: none;
 }
-.home-page .matches-card .card-match:first-child{
+
+.home-page .matches-card .card-match:first-child {
     margin: 0;
 }
-.home-page .matches-card .card-match{
-    margin-top: 80px ;
+
+.home-page .matches-card .card-match {
+    margin-top: 80px;
 }
-.home-page .matches-card .card-match .image img{
-width: 100%;
+
+.home-page .matches-card .card-match .image img {
+    width: 100%;
     border-radius: 10px;
 }
-.home-page .matches-card .card-match .description span{
+
+.home-page .matches-card .card-match .description span {
     margin: 9px 0 3px 0;
     display: inline-block;
 }
-.home-page .matches-card .card-match .description h6{
+
+.home-page .matches-card .card-match .description h6 {
     font-weight: bolder;
     font-size: 17px;
 }
-.home-page .matches-card .more-matches{
+
+.home-page .matches-card .more-matches {
     margin-top: 60px;
 }
-.home-page .matches-card .more-matches .details-match{
+
+.home-page .matches-card .more-matches .details-match {
     display: flex;
 }
-.home-page .matches-card .more-matches .details-match img{
+
+.home-page .matches-card .more-matches .details-match img {
     height: 110px;
 }
-.home-page .matches-card .more-matches .details-match .text{
+
+.home-page .matches-card .more-matches .details-match .text {
     margin-right: 15px;
 }
-.home-page .matches-card .more-matches .details-match .text p{
+
+.home-page .matches-card .more-matches .details-match .text p {
     font-size: 15px;
 }
+
 /* ---end section matches card---*/
 /* ---start section congress---*/
-.home-page .congress{
+.home-page .congress {
     background-image: url("../image/Rectangle 38.png");
     height: 450px;
     position: relative;
 }
-.home-page .congress .image-overly-1{
+
+.home-page .congress .image-overly-1 {
     position: absolute;
     right: 0;
     top: 15%;
     width: 60%;
 }
-.home-page .congress .image-overly-1 img{
+
+.home-page .congress .image-overly-1 img {
     width: 100%;
 }
-.home-page .congress .image-overly-2{
+
+.home-page .congress .image-overly-2 {
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
 }
-.home-page .congress .image-overly-2 img{
+
+.home-page .congress .image-overly-2 img {
     width: 100%;
 }
-.home-page .congress .image-overly-3{
+
+.home-page .congress .image-overly-3 {
     position: absolute;
     right: 15%;
     top: 10%;
     width: 4%;
 }
-.home-page .congress .image-overly-3 img{
+
+.home-page .congress .image-overly-3 img {
     width: 100%;
 }
-.home-page .congress .text{
+
+.home-page .congress .text {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     color: white;
 }
-.home-page .congress .text a{
+
+.home-page .congress .text a {
     text-decoration: none;
     background-color: white;
     padding: 10px;
@@ -275,39 +299,46 @@ width: 100%;
 /* ---end section congress---*/
 
 /* ---start section partners---*/
- .partners{
+.partners {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 80px;
 }
-.partners h4{
+
+.partners h4 {
     text-align: center;
     margin-bottom: 50px;
 }
-.partners .container{
+
+.partners .container {
     width: 60%;
 }
-.partners .partner{
+
+.partners .partner {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
 }
-.partners img{
+
+.partners img {
     display: inline-block;
     width: 120px;
 }
+
 /* ---end section partners---*/
 
 /* ---start section social-media---*/
-.social-media{
+.social-media {
     padding: 50px 0;
 }
+
 .social-media .logo {
     position: relative;
 }
-.social-media .logo .R{
+
+.social-media .logo .R {
     position: absolute;
     border: 2px solid #093697;
     width: 20px;
@@ -318,21 +349,26 @@ width: 100%;
     justify-content: center;
     align-items: center;
 }
-.social-media .logo .R img{
+
+.social-media .logo .R img {
     width: 12px;
     height: 12px;
 }
-.social-media  .links-navbar{
+
+.social-media .links-navbar {
     display: flex;
     margin-top: 30px;
 }
-.social-media  .links-navbar .link:first-child{
+
+.social-media .links-navbar .link:first-child {
     margin-left: 40px;
 }
-.social-media .social{
+
+.social-media .social {
     display: flex;
     margin-top: 50px;
 }
+
 .social-media .social .link-social {
     width: 40px;
     height: 40px;
@@ -344,7 +380,7 @@ width: 100%;
     margin-left: 12px;
 }
 
-.social-media .social .link-social i{
+.social-media .social .link-social i {
     color: white;
 }
 
@@ -352,35 +388,41 @@ width: 100%;
 /* ---end section social-media---*/
 
 /* ---start section footer---*/
-.footer{
+.footer {
     padding: 30px;
 }
-.footer .content-footer{
+
+.footer .content-footer {
     display: flex;
     justify-content: space-between;
 }
-.footer .content-footer .link a{
+
+.footer .content-footer .link a {
     text-decoration: none;
     margin-left: 40px;
     margin-bottom: 20px;
     display: inline-block;
     color: #000F2C;
 }
-.footer .language{
+
+.footer .language {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
-.footer .language i{
+
+.footer .language i {
     position: absolute;
     left: 10%;
-    top:30%;
+    top: 30%;
     font-size: 18px;
 }
-.footer .language select{
+
+.footer .language select {
     width: 120px;
 }
+
 /* ---end section footer---*/
 
 /*End Home page*/
@@ -388,47 +430,57 @@ width: 100%;
 /*start encounters page*/
 
 /*---start section language---*/
-.encounters-page .language-article{
-    padding-top: 30px ;
+.encounters-page .language-article {
+    padding-top: 30px;
 }
-.encounters-page .language-article .container{
+
+.encounters-page .language-article .container {
     position: relative;
     width: 80%;
 }
-.encounters-page .language-article  i{
+
+.encounters-page .language-article i {
     position: absolute;
-    left:3%;
+    left: 3%;
     top: 32%;
     font-size: 20px;
 }
-.encounters-page .language-article select{
+
+.encounters-page .language-article select {
     direction: ltr;
     padding-left: 60px;
 }
+
 /*---end section language---*/
 
 /*---start section article---*/
 .all-article {
     line-height: 2em;
 }
-.all-article .container{
+
+.all-article .container {
     width: 80%;
 }
-.all-article .article{
+
+.all-article .article {
     margin-top: 50px;
 }
-.all-article .article small{
+
+.all-article .article small {
     margin-bottom: 20px;
     display: inline-block;
 }
-.all-article .article .points-article{
+
+.all-article .article .points-article {
     line-height: 2.8em;
     padding-right: 30px;
 }
-.all-article .article .points-article li{
+
+.all-article .article .points-article li {
     padding-right: 30px;
 }
-.all-article .article .points-article li::marker{
+
+.all-article .article .points-article li::marker {
     color: #0088E7 !important;
     font-size: 20px;
 }
@@ -436,17 +488,21 @@ width: 100%;
 .all-article .article .description {
     padding-right: 30px;
 }
-.all-article .article .description .image{
+
+.all-article .article .description .image {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin:60px 0 10px 0;
+    margin: 60px 0 10px 0;
 }
-.all-article .article .description img{
+
+.all-article .article .description img {
     width: 85%;
 }
+
 .points-article {
 }
+
 /*---end section article---*/
 
 
@@ -457,38 +513,45 @@ width: 100%;
 
 /*---start header congress---*/
 
-.congress-page .header-congress{
+.congress-page .header-congress {
     height: 115vh;
     color: black;
     background-color: #843597;
     position: relative;
 }
-.congress-page .header-congress  .slider-congress {
-    padding:80px 80px;
+
+.congress-page .header-congress .slider-congress {
+    padding: 80px 80px;
 }
-.congress-page .header-congress  .slider-congress  .slider{
+
+.congress-page .header-congress .slider-congress .slider {
     margin-left: 50px;
     position: relative;
 
 }
-.congress-page .header-congress  .slider-congress  .slider  img{
+
+.congress-page .header-congress .slider-congress .slider img {
     height: 65vh;
 }
-.congress-page .header-congress  .slider-congress  .slider h4{
+
+.congress-page .header-congress .slider-congress .slider h4 {
     color: white;
     margin-bottom: 20px;
 }
-.congress-page .header-congress  .slider-congress  .slider h2{
+
+.congress-page .header-congress .slider-congress .slider h2 {
     color: white;
     margin-bottom: 20px;
 }
-.congress-page .header-congress  .slider-congress  .slider .text-img{
+
+.congress-page .header-congress .slider-congress .slider .text-img {
     position: absolute;
     z-index: 20;
     bottom: 8%;
     right: 8%;
 }
-.congress-page .header-congress  .slider-congress  .slider .text-img .icon-video {
+
+.congress-page .header-congress .slider-congress .slider .text-img .icon-video {
     color: white;
     width: 70px;
     height: 70px;
@@ -498,43 +561,52 @@ width: 100%;
     align-items: center;
     border-radius: 50%;
 }
-.congress-page .header-congress  .slider-congress  .slider .text {
+
+.congress-page .header-congress .slider-congress .slider .text {
     color: white;
     margin-top: 20px;
 }
+
 @media only screen and (max-width: 700px) {
-    .congress-page .header-congress{
+    .congress-page .header-congress {
         height: 60vh;
         background-color: #843597;
         position: relative;
     }
-    .congress-page .header-congress  .slider-congress {
-        padding:60px 0px;
+
+    .congress-page .header-congress .slider-congress {
+        padding: 60px 0px;
     }
-    .congress-page .header-congress  .slider-congress  .slider{
+
+    .congress-page .header-congress .slider-congress .slider {
         margin-left: 20px;
         position: relative;
     }
-    .congress-page .header-congress  .slider-congress  .slider  img{
+
+    .congress-page .header-congress .slider-congress .slider img {
         height: 33vh;
     }
-    .congress-page .header-congress  .slider-congress  .slider h4{
+
+    .congress-page .header-congress .slider-congress .slider h4 {
         color: white;
         margin-bottom: 20px;
         font-size: 17px;
     }
-    .congress-page .header-congress  .slider-congress  .slider h2{
+
+    .congress-page .header-congress .slider-congress .slider h2 {
         color: white;
         margin-bottom: 20px;
         font-size: 20px;
     }
-    .congress-page .header-congress  .slider-congress  .slider .text-img{
+
+    .congress-page .header-congress .slider-congress .slider .text-img {
         position: absolute;
         z-index: 20;
         bottom: 8%;
         right: 8%;
     }
-    .congress-page .header-congress  .slider-congress  .slider .text-img .icon-video {
+
+    .congress-page .header-congress .slider-congress .slider .text-img .icon-video {
         color: white;
         width: 50px;
         height: 50px;
@@ -545,9 +617,10 @@ width: 100%;
         border-radius: 50%;
     }
 }
-.congress-page .slick-arrow{
+
+.congress-page .slick-arrow {
     position: absolute !important;
-    top:95% !important;
+    top: 95% !important;
     border: 1px solid white;
     width: 40px;
     height: 40px;
@@ -556,148 +629,179 @@ width: 100%;
     align-items: center;
     border-radius: 50%;
 }
-.congress-page .slick-next{
+
+.congress-page .slick-next {
     position: absolute;
     right: 10% !important;
 
 }
+
 .congress-page .slick-prev {
     right: 5% !important;
 
 }
+
 /*---end header congress---*/
 
 /*---start matches card congress---*/
-.congress-page .card-congress{
+.congress-page .card-congress {
     background-color: #EEEEE4;
     padding: 90px 0;
 }
-.congress-page .card-congress .all-match{
+
+.congress-page .card-congress .all-match {
 }
-.congress-page .card-congress .all-match .right-card{
+
+.congress-page .card-congress .all-match .right-card {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
-.congress-page .card-congress .all-match .right-card h4{
+
+.congress-page .card-congress .all-match .right-card h4 {
     line-height: 1.8em;
 }
-.congress-page .card-congress .all-match .right-card a{
+
+.congress-page .card-congress .all-match .right-card a {
     text-decoration: none;
 }
-.congress-page .card-congress .all-match .card-match:first-child{
+
+.congress-page .card-congress .all-match .card-match:first-child {
     margin: 0;
 }
 
-.congress-page .card-congress .all-match .card-match .col-md{
-    margin:15px 5px ;
+.congress-page .card-congress .all-match .card-match .col-md {
+    margin: 15px 5px;
     background-color: white;
     padding: 0;
 
 }
-.congress-page .card-congress .all-match .card-match .image img{
+
+.congress-page .card-congress .all-match .card-match .image img {
     width: 100%;
 }
-.congress-page .card-congress .all-match .card-match .description{
+
+.congress-page .card-congress .all-match .card-match .description {
     padding: 10px 20px 40px 20px;
 }
-.congress-page .card-congress .all-match .card-match .description span{
+
+.congress-page .card-congress .all-match .card-match .description span {
     margin: 9px 0 3px 0;
     display: inline-block;
 }
-.congress-page .card-congress .all-match .card-match .description h6{
+
+.congress-page .card-congress .all-match .card-match .description h6 {
     font-weight: bolder;
     font-size: 17px;
 }
+
 /*---end matches card congress---*/
 
 /*---start documents congress---*/
-.congress-page  .documents{
+.congress-page .documents {
     min-height: 70vh;
     background-color: #843597;
-    padding:60px 0;
+    padding: 60px 0;
 }
-.congress-page  .documents h5,
-.congress-page  .documents h2{
+
+.congress-page .documents h5,
+.congress-page .documents h2 {
     color: white;
 }
-.congress-page .all-document{
+
+.congress-page .all-document {
     margin-top: 50px;
 }
-.congress-page .all-document .docm{
+
+.congress-page .all-document .docm {
     background-color: white;
     width: 100%;
     border-radius: 5px;
     overflow: hidden;
     margin-bottom: 15px;
 }
-.congress-page .all-document .docm .image{
+
+.congress-page .all-document .docm .image {
     width: 100%;
 }
-.congress-page .all-document .docm .image img{
+
+.congress-page .all-document .docm .image img {
     width: 100%;
 }
-.congress-page .all-document .docm  .description{
+
+.congress-page .all-document .docm .description {
     padding: 20px;
 }
-.congress-page .all-document .docm  .description h4{
+
+.congress-page .all-document .docm .description h4 {
     margin-top: 20px;
 }
-.congress-page .all-document .docm  .description a{
+
+.congress-page .all-document .docm .description a {
     text-decoration: none;
     display: inline-block;
     margin-top: 30px;
 }
+
 /*---end documents congress---*/
 
 /*end congress page*/
 
 /*start Login page*/
-.page-login{
+.page-login {
     padding: 35px 0;
 }
-.page-login .main-content{
-    border: 1px solid rgba(0,0,0,0.1);
+
+.page-login .main-content {
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 20px;
-    box-shadow: 0px 3px 12px -1px rgba(0,0,0,0.1);
+    box-shadow: 0px 3px 12px -1px rgba(0, 0, 0, 0.1);
 }
-.page-login .image{
+
+.page-login .image {
     width: 100%;
     height: 550px;
 }
-.page-login .image img{
+
+.page-login .image img {
     height: 100%;
     width: 100%;
 }
-.page-login .form-login a{
+
+.page-login .form-login a {
     display: block;
     text-decoration: none;
     margin: 20px 0;
 }
-.page-login .form-login button{
+
+.page-login .form-login button {
     background-color: #326295;
     border-radius: 0;
 }
-.page-login .form-login  .logo-form{
+
+.page-login .form-login .logo-form {
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 20px 0;
 }
-.page-login .form-login   .text{
+
+.page-login .form-login .text {
     margin-bottom: 20px;
 }
+
 @media only screen and (max-width: 800px) {
-    .page-login .section-image{
-      display: none;
+    .page-login .section-image {
+        display: none;
     }
 }
+
 /*end Login page*/
 
 
 /*start clubs page*/
 /*---start section tickets ---*/
-.clubs-page .tickets{
+.clubs-page .tickets {
     height: 90vh;
     background-image: url("../image/Repeat Grid 8.png");
     background-size: cover;
@@ -705,16 +809,18 @@ width: 100%;
     background-position: top;
     position: relative;
 }
-.clubs-page .tickets:before{
+
+.clubs-page .tickets:before {
     content: "";
     width: 100%;
     height: 100%;
     position: absolute;
     left: 0;
     top: 0;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
-.clubs-page .tickets .text{
+
+.clubs-page .tickets .text {
     position: relative;
     color: white;
     width: 100%;
@@ -724,11 +830,13 @@ width: 100%;
     justify-content: left;
 
 }
-.clubs-page .tickets .text .content-text{
+
+.clubs-page .tickets .text .content-text {
     padding-left: 30%;
     padding-top: 150px;
 }
-.clubs-page .tickets .text button{
+
+.clubs-page .tickets .text button {
     padding: 10px 10px 10px 20px;
     background-color: #1277D9;
     color: white;
@@ -736,18 +844,22 @@ width: 100%;
     margin-top: 15px;
     border: none;
 }
+
 @media only screen and (max-width: 800px) {
-    .clubs-page .tickets{
+    .clubs-page .tickets {
         height: 30vh;
     }
-    .clubs-page .tickets .text{
+
+    .clubs-page .tickets .text {
         justify-content: center;
     }
-    .clubs-page .tickets .text .content-text{
+
+    .clubs-page .tickets .text .content-text {
         padding: 0;
         text-align: center;
     }
-    .clubs-page .tickets .text h4{
+
+    .clubs-page .tickets .text h4 {
         font-size: 16px;
     }
 
@@ -756,7 +868,7 @@ width: 100%;
 /*---end section tickets---*/
 
 /*---start section hospitality---*/
-.clubs-page .hospitality{
+.clubs-page .hospitality {
     height: 90vh;
     background-image: url("../image/Repeat Grid 5.png");
     background-size: cover;
@@ -764,16 +876,18 @@ width: 100%;
     background-position: top;
     position: relative;
 }
-.clubs-page .hospitality:before{
+
+.clubs-page .hospitality:before {
     content: "";
     width: 100%;
     height: 100%;
     position: absolute;
     left: 0;
     top: 0;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
-.clubs-page .hospitality .text{
+
+.clubs-page .hospitality .text {
     position: relative;
     color: white;
     width: 100%;
@@ -783,11 +897,13 @@ width: 100%;
     justify-content: left;
 
 }
-.clubs-page .hospitality .text .content-text{
+
+.clubs-page .hospitality .text .content-text {
     padding-left: 20%;
     padding-top: 150px;
 }
-.clubs-page .hospitality .text button{
+
+.clubs-page .hospitality .text button {
     padding: 10px 10px 10px 20px;
     background-color: #1277D9;
     color: white;
@@ -795,18 +911,22 @@ width: 100%;
     margin-top: 15px;
     border: none;
 }
+
 @media only screen and (max-width: 800px) {
-    .clubs-page .hospitality{
+    .clubs-page .hospitality {
         height: 30vh;
     }
-    .clubs-page .hospitality .text{
+
+    .clubs-page .hospitality .text {
         justify-content: center;
     }
-    .clubs-page .hospitality .text .content-text{
+
+    .clubs-page .hospitality .text .content-text {
         padding: 0;
         text-align: center;
     }
-    .clubs-page .hospitality .text h4{
+
+    .clubs-page .hospitality .text h4 {
         font-size: 16px;
     }
 
@@ -816,7 +936,7 @@ width: 100%;
 
 
 /*---start section events---*/
-.clubs-page .events{
+.clubs-page .events {
     height: 90vh;
     background-image: url("../image/Repeat Grid 6.png");
     background-size: cover;
@@ -824,16 +944,18 @@ width: 100%;
     background-position: top;
     position: relative;
 }
-.clubs-page .events:before{
+
+.clubs-page .events:before {
     content: "";
     width: 100%;
     height: 100%;
     left: 0;
     top: 0;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
 }
-.clubs-page .events .text{
+
+.clubs-page .events .text {
     position: relative;
     color: white;
     width: 100%;
@@ -843,11 +965,13 @@ width: 100%;
     justify-content: left;
 
 }
-.clubs-page .events .text .content-text{
+
+.clubs-page .events .text .content-text {
     padding-left: 20%;
     margin-top: 120px;
 }
-.clubs-page .events .text button{
+
+.clubs-page .events .text button {
     padding: 10px 10px 10px 20px;
     background-color: #1277D9;
     color: white;
@@ -855,23 +979,28 @@ width: 100%;
     margin-top: 15px;
     border: none;
 }
+
 @media only screen and (max-width: 800px) {
-    .clubs-page .events{
+    .clubs-page .events {
         height: 30vh;
     }
-    .clubs-page .events .text{
+
+    .clubs-page .events .text {
         justify-content: center;
     }
-    .clubs-page .events .text .content-text{
-          padding: 0;
+
+    .clubs-page .events .text .content-text {
+        padding: 0;
         text-align: center;
         margin-top: 60px;
 
     }
-    .clubs-page .events .text .content-text small{
+
+    .clubs-page .events .text .content-text small {
         display: none !important;
     }
-    .clubs-page .events .text h4{
+
+    .clubs-page .events .text h4 {
         font-size: 15px;
     }
 
@@ -880,7 +1009,7 @@ width: 100%;
 /*---end section hospitality---*/
 
 /*---start section events---*/
-.clubs-page .colors{
+.clubs-page .colors {
     height: 90vh;
     background-image: url("../image/Repeat Grid 7.png");
     background-size: cover;
@@ -888,16 +1017,18 @@ width: 100%;
     background-position: top;
     position: relative;
 }
-.clubs-page .colors:before{
+
+.clubs-page .colors:before {
     content: "";
     width: 100%;
     height: 100%;
     left: 0;
     top: 0;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
 }
-.clubs-page .colors .text{
+
+.clubs-page .colors .text {
     position: relative;
     color: white;
     width: 100%;
@@ -907,11 +1038,13 @@ width: 100%;
     justify-content: left;
 
 }
-.clubs-page .colors .text .content-text{
+
+.clubs-page .colors .text .content-text {
     padding-left: 20%;
     margin-top: 120px;
 }
-.clubs-page .colors .text button{
+
+.clubs-page .colors .text button {
     padding: 10px 10px 10px 20px;
     background-color: #1277D9;
     color: white;
@@ -919,23 +1052,28 @@ width: 100%;
     margin-top: 15px;
     border: none;
 }
+
 @media only screen and (max-width: 800px) {
-    .clubs-page .colors{
+    .clubs-page .colors {
         height: 30vh;
     }
-    .clubs-page .colors .text{
+
+    .clubs-page .colors .text {
         justify-content: center;
     }
-    .clubs-page .colors .text .content-text{
+
+    .clubs-page .colors .text .content-text {
         padding: 0;
         text-align: center;
         margin-top: 60px;
 
     }
-    .clubs-page .colors .text .content-text small{
+
+    .clubs-page .colors .text .content-text small {
         display: none !important;
     }
-    .clubs-page .colors .text h4{
+
+    .clubs-page .colors .text h4 {
         font-size: 15px;
     }
 
@@ -947,12 +1085,13 @@ width: 100%;
 
 
 /*start competitions page*/
-.competitions-page .header{
+.competitions-page .header {
     background-image: url("../image/163-183726-copa-libertadores-conmebol-club-world-cup_700x400.png");
     background-size: contain;
-    background-position:center;
+    background-position: center;
     position: relative;
 }
+
 .competitions-page .header:before {
     content: "";
     width: 100%;
@@ -960,133 +1099,160 @@ width: 100%;
     left: 0;
     top: 0;
     position: absolute;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
-.competitions-page .matches .title{
+
+.competitions-page .matches .title {
     display: flex;
 }
-.competitions-page .matches{
+
+.competitions-page .matches {
     padding: 80px 0;
 }
-.competitions-page .matches .title div{
-   width: 70%;
+
+.competitions-page .matches .title div {
+    width: 70%;
 }
-.competitions-page .matches .title div h5{
+
+.competitions-page .matches .title div h5 {
     margin-bottom: 20px;
 
 }
-.competitions-page .matches .title div p{
+
+.competitions-page .matches .title div p {
     line-height: 2.2em;
 }
 
-.competitions-page .matches .match{
+.competitions-page .matches .match {
     display: flex;
     align-items: center;
     margin-top: 40px;
 }
-.competitions-page .matches .match .card-events{
-    box-shadow: 1px 2px 6px 1px rgba(0,0,0,0.2);
+
+.competitions-page .matches .match .card-events {
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.2);
     width: 80%;
     display: flex;
     align-items: center;
 }
-.competitions-page .matches .match .card-events .image{
+
+.competitions-page .matches .match .card-events .image {
     width: 12%;
 }
-.competitions-page .matches .match .card-events .image img{
-width: 100%;
+
+.competitions-page .matches .match .card-events .image img {
+    width: 100%;
 }
-.competitions-2-page .header{
+
+.competitions-2-page .header {
     background-image: url("../image/25220861.png");
 
 }
-.competitions-2-page .matches{
+
+.competitions-2-page .matches {
     padding-bottom: 20px;
 }
+
 /*end competitions page*/
 
 
-
 /* ---start section matches card---*/
-.tournaments-page .matches-card{
+.tournaments-page .matches-card {
     position: relative;
     padding-top: 50px;
 }
 
-.tournaments-page .matches-card .all-match{
+.tournaments-page .matches-card .all-match {
     margin: 90px 0;
     margin-right: 20px;
 }
-.tournaments-page .matches-card .right-card{
+
+.tournaments-page .matches-card .right-card {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
-.tournaments-page .matches-card .right-card h4{
+
+.tournaments-page .matches-card .right-card h4 {
     line-height: 1.8em;
 }
-.tournaments-page .matches-card .right-card a{
+
+.tournaments-page .matches-card .right-card a {
     text-decoration: none;
 }
-.tournaments-page .matches-card .card-match:first-child{
+
+.tournaments-page .matches-card .card-match:first-child {
     margin: 0;
 }
-.tournaments-page .matches-card .card-match{
-    margin-top: 80px ;
+
+.tournaments-page .matches-card .card-match {
+    margin-top: 80px;
 }
-.tournaments-page .matches-card .card-match .image img{
+
+.tournaments-page .matches-card .card-match .image img {
     width: 100%;
     border-radius: 10px;
 }
-.tournaments-page .matches-card .card-match .description span{
+
+.tournaments-page .matches-card .card-match .description span {
     margin: 9px 0 3px 0;
     display: inline-block;
 }
-.tournaments-page .matches-card .card-match .description h6{
+
+.tournaments-page .matches-card .card-match .description h6 {
     font-weight: bolder;
     font-size: 17px;
 }
-.tournaments-page .matches-card .more-matches{
+
+.tournaments-page .matches-card .more-matches {
     margin-top: 60px;
 }
-.tournaments-page .matches-card .more-matches .details-match{
+
+.tournaments-page .matches-card .more-matches .details-match {
     display: flex;
 }
-.tournaments-page .matches-card .more-matches .details-match img{
+
+.tournaments-page .matches-card .more-matches .details-match img {
     height: 110px;
 }
-.tournaments-page .matches-card .more-matches .details-match .text{
+
+.tournaments-page .matches-card .more-matches .details-match .text {
     margin-right: 15px;
 }
-.tournaments-page .matches-card .more-matches .details-match .text p{
+
+.tournaments-page .matches-card .more-matches .details-match .text p {
     font-size: 15px;
 }
+
 /* ---end section matches card---*/
-.tournaments-page .header{
+.tournaments-page .header {
     background-image: url("../image/Image 4.png");
     position: relative;
     height: 90vh;
 }
-.tournaments-page .header .text{
+
+.tournaments-page .header .text {
     bottom: 15%;
 }
-.tournaments-page .header:before{
+
+.tournaments-page .header:before {
     content: "";
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
     top: 0;
-    left:0 ;
+    left: 0;
 }
-.tournaments-page .card-tournaments{
+
+.tournaments-page .card-tournaments {
     padding: 40px;
     padding-bottom: 0;
 }
 
 
-.card-tournaments .card{
-    box-shadow: 0px 1px 8px 2px rgba(0,0,0,0.2);
+.card-tournaments .card {
+    box-shadow: 0px 1px 8px 2px rgba(0, 0, 0, 0.2);
     width: 25%;
     margin: 0 auto;
     margin-top: 80px;
@@ -1095,16 +1261,161 @@ width: 100%;
     line-height: 3em;
 
 }
+
 .card-tournaments .card img {
     width: 50%;
     margin: 0 auto;
 }
 
 @media only screen and (max-width: 900px) {
-    .card-tournaments .card{
+    .card-tournaments .card {
         width: 80%;
 
 
     }
 }
+
 /*end page tournaments*/
+
+/*start  tickets-page*/
+.tickets-page .header {
+    background-image: url("../image/New folder (2)/Repeat Grid 5.png");
+    height: 90vh;
+    position: relative;
+}
+
+.tickets-page .header:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.tickets-page .navbar-links {
+    padding: 20px 0;
+}
+
+.tickets-page .navbar-links .container {
+    display: flex;
+}
+
+.tickets-page .navbar-links .container .logo-title {
+    width: 20%;
+}
+
+.tickets-page .navbar-links .container .all-link {
+    width: 80%;
+}
+
+.tickets-page .navbar-links .container .all-link ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1000px) {
+    .tickets-page .navbar-links {
+    display: none;
+    }
+}
+
+
+.tickets-page .navbar-links .container .all-link ul li.active a {
+    color: #0263BC;
+}
+
+.tickets-page .navbar-links .container .all-link ul li.active a {
+}
+
+.tickets-page .navbar-links .container .all-link ul li a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+.tickets-page .text-paragraph {
+    padding: 30px 50px 0 50px;
+}
+
+.tickets-page .text-paragraph .container {
+    width: 50%;
+    line-height: 2em;
+}
+
+.tickets-page .matches-card .container {
+    width: 80%;
+}
+
+.tickets-page .matches-card .all-match {
+    margin: 30px 0;
+    margin-right: 20px;
+}
+
+.tickets-page .matches-card .card-match:first-child {
+    margin: 0;
+}
+
+.tickets-page .matches-card .card-match {
+    margin-top: 80px;
+}
+
+.tickets-page .matches-card .card-match div {
+
+    margin-top: 15px;
+}
+
+.tickets-page .matches-card .card-match .image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tickets-page .matches-card .card-match .description span {
+    margin: 9px 0 3px 0;
+    display: inline-block;
+}
+
+.tickets-page .matches-card .card-match .description h6 {
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.tickets-page .matches-card .more-matches {
+    margin-top: 60px;
+}
+
+.tickets-page .matches-card .more-matches .details-match {
+    display: flex;
+}
+
+.tickets-page .matches-card .more-matches .details-match img {
+    height: 110px;
+}
+
+.tickets-page .matches-card .more-matches .details-match .text {
+    margin-right: 15px;
+}
+
+.tickets-page .matches-card .more-matches .details-match .text p {
+    font-size: 15px;
+}
+.tickets-page-2 .navbar-links .all-link{
+    width: 100% !important;
+}
+.tickets-page-2 .navbar-links .all-link ul{
+    justify-content: center !important;
+    margin: 0 10px;
+}
+.tickets-page-2 .navbar-links .all-link ul li {
+    padding: 0 10px;
+}
+.tickets-page-2 .header{
+    background-image: url("../image/New folder (3)/Repeat Grid 12.png");
+    background-position: top;
+}
+/*end  tickets-page*/
+
