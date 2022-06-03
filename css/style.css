@@ -1346,6 +1346,16 @@ body {
     width: 50%;
     line-height: 2em;
 }
+@media only screen and (max-width: 800px) {
+    .tickets-page .header {
+        height: 40vh !important;
+    }
+    .tickets-page .text-paragraph .container {
+        width: 90%;
+        line-height: 2em;
+    }
+}
+
 
 .tickets-page .matches-card .container {
     width: 80%;
