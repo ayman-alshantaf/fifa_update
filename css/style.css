@@ -1276,8 +1276,54 @@ body {
 }
 
 /*end page tournaments*/
+.navbar-links {
+    padding: 20px 0;
+}
+
+.navbar-links .container {
+    display: flex;
+}
+
+.navbar-links .container .logo-title {
+    width: 20%;
+}
+
+.navbar-links .container .all-link {
+    width: 80%;
+}
+
+.navbar-links .container .all-link ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbar-links {
+        display: none;
+    }
+}
+
+
+.navbar-links .container .all-link ul li.active a {
+    color: #0263BC;
+}
+
+.navbar-links .container .all-link ul li.active a {
+}
+
+.navbar-links .container .all-link ul li a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
 
 /*start  tickets-page*/
+
+
 .tickets-page .header {
     background-image: url("../image/New folder (2)/Repeat Grid 5.png");
     height: 90vh;
@@ -1320,7 +1366,7 @@ body {
 
 @media only screen and (max-width: 1000px) {
     .tickets-page .navbar-links {
-    display: none;
+        display: none;
     }
 }
 
@@ -1346,10 +1392,12 @@ body {
     width: 50%;
     line-height: 2em;
 }
+
 @media only screen and (max-width: 800px) {
     .tickets-page .header {
         height: 35vh !important;
     }
+
     .tickets-page .text-paragraph .container {
         width: 100%;
         line-height: 2em;
@@ -1413,19 +1461,577 @@ body {
 .tickets-page .matches-card .more-matches .details-match .text p {
     font-size: 15px;
 }
-.tickets-page-2 .navbar-links .all-link{
+
+.tickets-page-2 .navbar-links .all-link {
     width: 100% !important;
 }
-.tickets-page-2 .navbar-links .all-link ul{
+
+.tickets-page-2 .navbar-links .all-link ul {
     justify-content: center !important;
     margin: 0 10px;
 }
+
 .tickets-page-2 .navbar-links .all-link ul li {
     padding: 0 10px;
 }
-.tickets-page-2 .header{
+
+.tickets-page-2 .header {
     background-image: url("../image/New folder (3)/Repeat Grid 12.png");
     background-position: top;
 }
+
 /*end  tickets-page*/
+
+/*start  teams page*/
+.teams-page .header {
+    background-image: url("../image/New folder (3)/Repeat Grid 12.png");
+    height: 90vh;
+    position: relative;
+    background-position: top;
+
+}
+
+.teams-page .header:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.teams-page .navbar-links {
+    padding: 20px 0;
+}
+
+.teams-page .navbar-links .container {
+    display: flex;
+}
+
+.teams-page .navbar-links .container .logo-title {
+    width: 20%;
+}
+
+.teams-page .navbar-links .container .all-link {
+    width: 100%;
+}
+
+.teams-page .navbar-links .container .all-link ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1000px) {
+    .teams-page .navbar-links {
+        display: none;
+    }
+}
+
+
+.teams-page .navbar-links .container .all-link ul li.active a {
+    color: #0263BC;
+}
+
+
+.teams-page .navbar-links .container .all-link ul li a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+.teams-page .text-paragraph {
+    padding: 30px 50px 0 50px;
+}
+
+.teams-page .text-paragraph .container {
+    width: 50%;
+    line-height: 2em;
+}
+
+@media only screen and (max-width: 800px) {
+    .teams-page .header {
+        height: 35vh !important;
+    }
+
+    .teams-page .text-paragraph .container {
+        width: 100%;
+        line-height: 2em;
+    }
+}
+
+
+.teams-page .matches-card .container {
+    width: 80%;
+}
+
+.teams-page .matches-card .all-match {
+    margin: 30px 0;
+    margin-right: 20px;
+}
+
+.teams-page .matches-card .card-match:first-child {
+    margin: 0;
+}
+
+.teams-page .matches-card .card-match .col-md-3 div.main-card {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    margin: 2px;
+}
+
+.teams-page .matches-card .card-match {
+    margin-top: 80px;
+
+}
+
+.teams-page .matches-card .card-match div {
+
+    margin-top: 15px;
+}
+
+.teams-page .matches-card .card-match .image {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.teams-page .matches-card .card-match .image:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(17px);
+}
+
+.teams-page .matches-card .card-match .image img {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.teams-page .matches-card .card-match .image img:first-child {
+}
+
+.teams-page .matches-card .card-match .image img:last-child {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.teams-page .matches-card .card-match .description h5 {
+    font-weight: bolder;
+    font-size: 17px;
+    text-align: center;
+    padding: 20px;
+}
+
+.teams-page .matches-card .more-matches {
+    margin-top: 60px;
+}
+
+.teams-page .matches-card .more-matches .details-match {
+    display: flex;
+}
+
+.teams-page .matches-card .more-matches .details-match img {
+    height: 110px;
+}
+
+.teams-page .matches-card .more-matches .details-match .text {
+    margin-right: 15px;
+}
+
+.teams-page .navbar-links .container .all-link ul {
+    display: flex;
+    width: 65% !important;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.teams-page .button-filter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.teams-page .button-filter button {
+    margin: 0px 5px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.teams-page .button-filter button.active {
+    background-color: #1277D9;
+    color: white;
+}
+
+/*end  teams page*/
+
+/*start matchCenter-page*/
+.matchCenter-page .matches {
+    text-align: center;
+}
+
+.matchCenter-page .matches .category {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.matchCenter-page .matches .category h6 {
+    margin: 25px 20px;
+}
+
+.matchCenter-page .matches .category h6.active {
+    color: #0369C7;
+    border-bottom: 2px solid #0369C7;
+    padding-bottom: 5px;
+}
+
+.table-matches .details h5 {
+    font-weight: bolder;
+}
+
+.table-matches .details span {
+    display: block;
+}
+
+.table-matches td {
+    padding: 20px;
+}
+
+.table-matches tr td {
+    height: 100%;
+}
+
+.table-matches .teams-results {
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+}
+
+.table-matches .team img {
+    width: 50px;
+    margin: 0 10px;
+}
+
+.table-matches .teams-results .result {
+    background-color: #E4E8F0;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 0 10px;
+    min-width: 90px;
+    text-align: center;
+}
+
+.table-matches .name-matches {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.table-matches .table-body .body-table {
+    display: none;
+
+}
+
+.table-matches .table-body {
+    cursor: pointer;
+}
+
+.table-matches .table-body.active .body-table {
+    display: block;
+}
+
+@media only screen and (max-width: 800px) {
+    .table-matches .hide-mobile {
+        display: none;
+    }
+
+    .table-matches .teams-results .result {
+        background-color: #E4E8F0;
+        padding: 10px 5px;
+        border-radius: 30px;
+        margin: 0 10px;
+    }
+}
+
+/*end matchCenter-page*/
+
+/*start table-results*/
+.table-results {
+    background-color: #F7F9FC;
+    padding: 40px 0;
+    margin-top: 70px;
+}
+
+.table-results .slider-result .result img {
+    width: 40px;
+    margin: 0 10px;
+
+}
+
+.table-results .slider-result .result {
+    margin-left: 30px !important;
+    background-color: white;
+    box-shadow: 0px 2px 15px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.table-results .slider-result1 {
+    padding: 100px 0;
+}
+
+@media only screen and (min-width: 1000px) {
+    .table-results .slider-result .result .city {
+        width: 500px;
+    }
+}
+
+.matchCenter-page .slick-next:before {
+    color: black !important;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.matchCenter-page .slick-prev:before {
+    color: black !important;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+[dir='rtl'] .slick-prev {
+    right: -50px;
+    left: auto;
+}
+
+.card-results {
+    padding: 40px 0;
+}
+
+.card-results .card-slide {
+    margin-left: 20px;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-results .card-slide .image {
+    width: 100%;
+    height: 220px;
+    position: relative;
+}
+
+.card-results .card-slide .image img {
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+.card-results .card-slide .image:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+
+}
+
+.card-results .card-slide .text {
+    padding: 0 20px;
+}
+
+.card-results .card-slide .text div {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.card-results .card-slide .text div img {
+    width: 50px;
+}
+
+.slick-list {
+    box-sizing: initial;
+    padding: 25px 0px;
+}
+
+/*end table-results*/
+
+/*start intrasted-page*/
+.intrasted-page .text-paragraph {
+    padding: 0 10%;
+}
+
+.intrasted-page .form-check-input {
+    float: unset;
+    margin-left: 15px;
+}
+
+/*end intrasted-page*/
+
+/*start finalDraw page*/
+.finalDraw-page .header {
+    background-image: url("../image/New folder (2)/Repeat Grid 5.png");
+}
+
+.finalDraw-page .draw {
+    padding: 50px 0;
+}
+
+.finalDraw-page .draw .image {
+    width: 70%;
+    margin: 0 auto;
+}
+.finalDraw-page .draw .image img{
+    width: 100%;
+}
+
+.finalDraw-page .header-congress{
+    background-color: white !important;
+    margin-bottom: 50px;
+}
+.finalDraw-page .header-congress .slider-congress{
+    padding-top: 0;
+}
+.finalDraw-page  .slick-next , .finalDraw-page  .slick-prev{
+    background-color: #0c63e4;
+}
+.finalDraw-page .text-slider{
+    padding:0 0 50px 0;
+}
+.finalDraw-page .text-slider .container {
+    width: 80%;
+    padding: 0 60px;
+}
+.finalDraw-page .more-matches {
+    margin-top: 60px;
+}
+
+.finalDraw-page .more-matches .details-match {
+    display: flex;
+}
+
+.finalDraw-page .more-matches .details-match img {
+    height: 110px;
+}
+
+.finalDraw-page .more-matches .details-match .text {
+    margin-right: 15px;
+}
+
+.finalDraw-page  .more-matches .details-match .text p {
+    font-size: 15px;
+}
+.finalDraw-page .table-results .slick-next, .finalDraw-page .table-results .slick-prev {
+    display: none;
+}
+
+/*end finalDraw page*/
+.destination-page .header{
+    background-image: url("../image/New folder (2)/Repeat Grid 5.png");
+}
+.destination-page .card-congress{
+    padding: 30px 0;
+}
+.destination-page .massage .container{
+    width: 50%;
+    line-height: 2.2em;
+}
+.destination-page .massage .container h6{
+    line-height: 2.2em !important;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+    .congress-page .card-congress .all-match .card-match .col-md {
+         margin: 15px 0px;
+    }
+    .congress-page .card-congress .all-match .card-match .col-md {
+        padding: 0 10px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .destination-page .massage .container{
+        width: 90%;
+        line-height: 2.2em;
+    }
+}
+
+
+.card-counter{
+    padding: 40px 0;
+    background-color: #F7F9FC;
+}
+.card-counter .container{
+    width: 70%;
+}
+.card-counter .card-number{
+    background-color: white;
+    box-shadow: 1px 3px 8px 1px  rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px  40px;
+    margin-bottom: 15px;
+}
+.playoffs .card-playoffs{
+    padding: 50px 0;
+    background-color:#F7F9FC ;
+    padding-top: 70px;
+
+}
+.playoffs .card-playoffs .card-team{
+    width: 30%;
+    padding: 30px 15px 10px 15px;
+    background-color: white;
+    box-shadow: 1px 3px 8px 1px  rgba(0,0,0,0.2);
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.playoffs .card-playoffs .card-team  .date{
+    margin: 0 10px;
+}
+.playoffs .card-playoffs  .card-team  .flex-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.playoffs .card-playoffs  .card-team .flex-card img{
+    width: 45px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .playoffs .card-playoffs .card-team{
+        width: 60%;
+        padding: 50px;
+        background-color: white;
+        box-shadow: 1px 3px 8px 1px  rgba(0,0,0,0.2);
+        margin: 0 auto;
+    }
+}
+
 
