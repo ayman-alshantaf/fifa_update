@@ -2056,6 +2056,9 @@ body {
 .finalDraw-page .table-results .slick-arrow{
     display: none !important;
 }
+.clock-page .counter-clock{
+    padding-top: 50px;
+}
 .clock-page .counter-clock .clock{
     display: flex;
     justify-content: center;
