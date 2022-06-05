@@ -1681,6 +1681,21 @@ body {
 /*end  teams page*/
 
 /*start matchCenter-page*/
+.matchCenter-page .header{
+    background-image: url("../image/New folder (3)/Repeat Grid 12.png") ;
+    background-position: top;
+    position: relative;
+    height: 90vh;
+}
+.matchCenter-page .header:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    left: 0;
+    top: 0;
+    position: absolute;
+}
 .matchCenter-page .matches {
     text-align: center;
 }
