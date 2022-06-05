@@ -2033,5 +2033,63 @@ body {
         margin: 0 auto;
     }
 }
+.playoffs .card-results .slick-arrow{
+    display: none !important;
+}
+.playoffs .all-teams{
+    background-color: #F7F9FC;
+    padding: 30px 0;
+}
+.playoffs .all-teams .title{
+    display: flex;
+    justify-content: space-between;
+}
+.playoffs .all-teams .teams .name-team{
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+.playoffs .all-teams .teams .name-team img{
+   width: 50px;
+    margin-left: 20px;
+}
+.finalDraw-page .table-results .slick-arrow{
+    display: none !important;
+}
+.clock-page .counter-clock .clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock-page .counter-clock .clock > div{
+    margin: 0 5px;
+}
+.clock-page .counter-clock .clock span{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.counter-clock .events-counter{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
 
+@media only screen and (max-width: 980px) {
+    .clock-page .counter-clock .clock .image img{
+        width: 180px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .clock-page .counter-clock .clock .image {
+        display: none;
+    }
+    .clock-page .counter-clock .clock .image3 {
+        display: none;
+    }
+    .counter-clock .events-counter{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+}
 
